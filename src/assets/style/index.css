@@ -1,0 +1,325 @@
+.box-card>div {
+    padding: 12px;
+}
+
+.el-drawer__body {
+    padding: 20px;
+}
+
+/*.el-tabs__nav-wrap::after {
+    background: transparent;
+}*/
+
+.el-button--small {
+    padding: 0 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+}
+
+
+/* .el-scrollbar__wrap {
+    overflow-x: hidden;
+  } */
+
+.el-tabs__nav .el-tabs__item span.el-icon-close {
+    display: inline;
+}
+
+.el-tabs__nav .el-tabs__item:nth-child(1) span.el-icon-close{
+    display: none;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item i {
+    color: #999;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active i {
+    color: #1e9fff;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-closable:hover {
+    padding: 0 20px !important;
+}
+
+
+/* tab圆角 */
+
+.el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border-radius: 0;
+    border: none;
+}
+
+
+/* 首页内边距 */
+
+.el-card__body {
+    padding: 10px;
+}
+
+
+/* tab标签样式 */
+
+.el-tabs--card>.el-tabs__header .el-tabs__item {
+    border: none;
+    height: 38px;
+    line-height: 38px;
+}
+
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+    background-color: #f6f6f6;
+}
+
+
+/* 日历 */
+
+.home-calendar .el-calendar-table .el-calendar-day {
+    padding: 4px;
+    height: 30px;
+    line-height: 0px;
+    text-align: center;
+}
+
+.home-calendar .el-button-group>.el-button:not(:first-child):not(:last-child) span {
+    display: none;
+}
+
+.home-calendar .el-button-group>.el-button:not(:first-child):not(:last-child):after {
+    content: '当月';
+}
+
+.home-calendar .el-calendar-table thead th {
+    text-align: center;
+    font-weight: bold;
+}
+
+.el-calendar {
+    border: 1px solid #ebeef5;
+    margin-bottom: 20px;
+}
+
+
+/* dialog标题隐藏 */
+
+.el-dialog .el-dialog__header {
+    display: none;
+}
+
+.el-dialog .el-dialog__body {
+    padding: 20px !important;
+}
+
+
+/* tab激活底部边框 */
+
+.el-tabs__active-bar {
+    height: 3px;
+}
+
+
+/* form表单不可修改样式 */
+
+.form-readonly .el-input__inner,
+.form-readonly .el-textarea__inner {
+    border-color: transparent !important;
+    cursor: auto !important;
+}
+
+.form-readonly .el-input.is-disabled .el-input__inner,
+.form-readonly .el-textarea.is-disabled .el-textarea__inner {
+    color: #606266;
+    background: #fff;
+}
+
+.el-tabs-bottom .el-tabs__header {
+    border-bottom: 1px solid #d1dbe5;
+}
+
+
+/* 更新数据图标 */
+
+.rotate-circle {
+    -ms-transform: rotate(36000deg);
+    -moz-transform: rotate(36000deg);
+    -webkit-transform: rotate(36000deg);
+    transform: rotate(36000deg);
+    -moz-transition: all 100s;
+    -webkit-transition: all 100s;
+    transition: all 100s;
+}
+
+
+/* 分页 */
+
+.fixed-bottom-page {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    right: 0;
+    background: #ffffff;
+    width: 100%;
+    text-align: right;
+    height: 48px;
+    line-height: 48px;
+    padding: 10px 30px;
+    box-shadow: 0 0 17px -1px #eee;
+    box-sizing: border-box;
+}
+
+.fixed-bottom-page * {
+    height: 30px !important;
+    line-height: 30px !important;
+    color: #48576a !important;
+    max-width: 300px !important;
+    font-weight: 500 !important;
+}
+
+.fixed-bottom-page .el-input--mini .el-input__inner {
+    height: 28px;
+    line-height: 28px;
+}
+
+.fixed-bottom-page .el-pager li {
+    padding: 0 4px;
+    border: 1px solid #d1dbe5 !important;
+    border-right: 0 !important;
+    background: #fff;
+    font-size: 13px;
+    min-width: 28px !important;
+    height: 28px;
+    line-height: 28px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.fixed-bottom-page button.disabled {
+    color: #e4e4e4;
+    background-color: #fff;
+    cursor: not-allowed;
+}
+
+.fixed-bottom-page .btn-next,
+.fixed-bottom-page .btn-prev {
+    background: 50% no-repeat #fff;
+    background-size: 16px;
+    border: 1px solid #d1dbe5;
+    cursor: pointer;
+    margin: 0;
+    color: #97a8be;
+}
+
+.fixed-bottom-page .btn-prev {
+    border-right: 0;
+}
+
+.fixed-bottom-page li.active {
+    border: 1px solid #20a0ff !important;
+    border-color: #20a0ff;
+    background-color: #20a0ff;
+    color: #fff !important;
+    cursor: default;
+}
+
+.fixed-bottom-page .el-pagination__editor {
+    width: 40px;
+    border-radius: 2px;
+    line-height: 18px;
+    width: 30px;
+    text-align: center;
+    margin: 0 6px;
+    box-sizing: border-box;
+    transition: border .3s;
+}
+
+
+/* transfer样式 */
+
+.el-transfer__buttons .el-button--primary {
+    display: block;
+    margin: 10px 0;
+}
+
+.el-transfer__buttons .el-button--primary span {
+    margin: 0 5px;
+}
+
+
+/* 分割线 */
+
+.el-divider--horizontal {
+    margin: 10PX 0;
+}
+
+
+/* 表格默认选择 */
+
+.el-table .success-row {
+    background: rgb(232, 243, 254);
+}
+
+
+/* 查找带回下拉框隐藏 */
+
+.find-back-input {
+    display: none;
+}
+
+
+/* 树节点高亮色 */
+
+
+/* .el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+    background-color: rgb(232, 243, 254);
+    color: #1e9fff;
+} */
+
+
+/* 右侧选项 */
+
+.custom-tree-node {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+
+/* waves */
+
+.waves-ripple {
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    background-clip: padding-box;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+}
+
+.waves-ripple.z-active {
+    opacity: 0;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    -webkit-transition: opacity 1.2s ease-out, -webkit-transform 0.6s ease-out;
+    transition: opacity 1.2s ease-out, -webkit-transform 0.6s ease-out;
+    transition: opacity 1.2s ease-out, transform 0.6s ease-out;
+    transition: opacity 1.2s ease-out, transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+}
+
+.clearfix:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block; display:block; zoom:1;}
+
+/* 表格错位 */
+body .el-table th.gutter {
+  display: table-cell !important;
+}

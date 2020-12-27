@@ -1,0 +1,26 @@
+.search-btn-group-total {
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 10px #f0f0f0;
+    border-radius: 4px;
+	.search-btn-group-total-num {
+		color: #409eff !important;
+	}
+	.search-btn-group-total-label {
+		color: #3f3f3f !important;
+	}
+}
+.search-btn-group-con {
+    border-radius: 4px;
+	.search-btn-group-con-title {
+		color: #fff;
+		background-color: #409eff;
+	}
+	.search-btn-group-type {
+		.search-btn-group-type-block {
+			.search-btn-group-type-num {
+				color: #409eff;
+			}
+		}
+	}
+}
